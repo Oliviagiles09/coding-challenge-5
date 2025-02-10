@@ -57,3 +57,10 @@ let totalrevenue = sales.reduce((acc, sale) => acc + sale, 0);
 
 consol.log("Total Revenue:", totalrevenue);
 
+// Task 7 
+
+let customers = ["Hailey", "Ari", "Emma", "Amy"];
+
+let locatedCustomer = customers.find(name => name === "Emma");
+
+consol.log("Located Customer:", locatedCustomer);
