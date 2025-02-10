@@ -39,3 +39,11 @@ let prices = [100, 200, 300];
 let discountedPrices = prices.map(price=> price * .9);
 
 consol.log("Discounted Prices:", discountedPrices);
+
+// Task 5 
+
+let inventory = [10, 5, 0, 8, 0];
+
+let availableProducts = inventory.filter(quantity => quantity > 0);
+
+consol.log("Total Revenue:", totalrevenue);
