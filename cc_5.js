@@ -32,3 +32,10 @@ cartItems.upshift("Mascara");
 cartItems.shift();
 
 consol.log("Updated Cart Items:", cartItems);
+
+// Task 4
+let prices = [100, 200, 300];
+
+let discountedPrices = prices.map(price=> price * .9);
+
+consol.log("Discounted Prices:", discountedPrices);
