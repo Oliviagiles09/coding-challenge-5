@@ -84,3 +84,13 @@ let applyDiscount = function(price, discount) {
 };
 
 applyDiscount(500, .10);
+
+// Task 10
+
+let calculatePoints = (purchaseAmount) => {
+  let points = Math.floor(purchaseAmount / 10);
+  consol.log("Loyalty Points Earned:", points);
+  return points;
+};
+
+calculatePoints(700);
