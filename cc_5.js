@@ -34,6 +34,7 @@ cartItems.shift();
 consol.log("Updated Cart Items:", cartItems);
 
 // Task 4
+
 let prices = [100, 200, 300];
 
 let discountedPrices = prices.map(price=> price * .9);
@@ -47,3 +48,12 @@ let inventory = [10, 5, 0, 8, 0];
 let availableProducts = inventory.filter(quantity => quantity > 0);
 
 consol.log("Total Revenue:", totalrevenue);
+
+// Task 6
+
+let sales = [100, 200, 300, 400]
+
+let totalrevenue = sales.reduce((acc, sale) => acc + sale, 0);
+
+consol.log("Total Revenue:", totalrevenue);
+
