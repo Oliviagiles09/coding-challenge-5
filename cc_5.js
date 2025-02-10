@@ -23,3 +23,12 @@ let order = {
 
 order.displayOrder();
 
+// Task 3 
+let cartItems = ["Blush", "Bronzer", "Highlighter"];
+
+cartItems.push("Powder");
+cartItems.pop();
+cartItems.upshift("Mascara");
+cartItems.shift();
+
+consol.log("Updated Cart Items:", cartItems);
