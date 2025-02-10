@@ -64,3 +64,11 @@ let customers = ["Hailey", "Ari", "Emma", "Amy"];
 let locatedCustomer = customers.find(name => name === "Emma");
 
 consol.log("Located Customer:", locatedCustomer);
+
+// Task 8 
+
+function calculateTax(amount, taxRate) {
+  let tax = amount * taxRate;
+  consol.log('Tax: $${tax}');
+  return tax;
+};
